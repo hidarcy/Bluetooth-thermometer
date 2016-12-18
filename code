@@ -7,9 +7,9 @@ SoftwareSerial mySerial(4, 5); //RX,TX
 #define PIXEL_PIN    A0
 #define PIXEL_COUNT  6
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(PIXEL_COUNT, PIXEL_PIN, NEO_GRB + NEO_KHZ800);
-#define temp1    28//#define定义常量
+#define temp1    20//#define定义常量
 #define temp2    30
-#define temp3    32
+#define temp3    40
 
 float sensor_tem;
 void setup() {
